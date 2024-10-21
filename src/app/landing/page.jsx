@@ -15,24 +15,24 @@ export default function Landing() {
               Future of WEB3 Marketing with BasedPay on Base.
             </h1>
             <p className="text-xl mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sem elit, cursus ut velit nec, porta consequat massa. Suspendisse vitae lacus eros. Nulla nisl elit, molestie in congue sed, dignissim et nisl. 
+            Unlock discounts on everyday transactions by participating in quick, simple promotional campaigns. Choose your preferred way to earn – watch a short ad or complete an easy task. Get instant rewards and make your money work harder for you. 
             </p>
             <button className="bg-white text-black px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-200">
-              get instant on your daily purchases
+              get instant discount on your daily purchases
             </button>
           </div>
   
           <div className="flex justify-between mt-20 border-t border-gray-700 mx-20 pt-8">
             <div>
-              <div className="text-gray-400 text-xl">Marketing</div>
+              <div className="text-gray-400 text-xl">Flexible Campaigns</div>
              
             </div>
             <div>
-              <div className="text-gray-400 text-xl">APR</div>
+              <div className="text-gray-400 text-xl"> Instant Discounts</div>
       
             </div>
             <div>
-              <div className="text-gray-400 text-xl">BasedPay points</div>
+              <div className="text-gray-400 text-xl">Marketing</div>
               
             </div>
             <div>

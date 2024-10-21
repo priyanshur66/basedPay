@@ -10,10 +10,10 @@ export default function Benefits() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500 rounded-full filter blur-3xl opacity-20 -mr-16 -mt-16"></div>
               <div className="flex items-center mb-4">
                 <div className="w-4 h-4 bg-blue-500 rounded-full mr-3"></div>
-                <h3 className="text-xl font-semibold">Interoperability</h3>
+                <h3 className="text-xl font-semibold">Save on Every Purchase</h3>
               </div>
               <p className="text-gray-400">
-              Etiam ac ante nulla. nunc tempor.
+              Why pay full price when you can save? Basedpay rewards you with instant discounts just for participating in simple campaigns, putting money back into your pocket on every transaction.
               </p>
             </div>
   
@@ -22,10 +22,10 @@ export default function Benefits() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500 rounded-full filter blur-3xl opacity-20 -mr-16 -mt-16"></div>
               <div className="flex items-center mb-4">
                 <div className="w-4 h-4 bg-blue-500 rounded-full mr-3"></div>
-                <h3 className="text-xl font-semibold">High-Yield earning</h3>
+                <h3 className="text-xl font-semibold">Empower Service Providers</h3>
               </div>
               <p className="text-gray-400">
-              Etiam ac ante nulla. nunc tempor.
+              Service providers can boost their revenue by offering Basedpay discounts to their customers. Plus, with our data insights, providers can access collateral-free loans based on purchase volume, helping them grow their businesses with ease.
               </p>
             </div>
   
@@ -34,10 +34,10 @@ export default function Benefits() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500 rounded-full filter blur-3xl opacity-20 -mr-16 -mt-16"></div>
               <div className="flex items-center mb-4">
                 <div className="w-4 h-4 bg-blue-500 rounded-full mr-3"></div>
-                <h3 className="text-xl font-semibold">Efficient BasedPay</h3>
+                <h3 className="text-xl font-semibold">New Customer Base for Web3 Projects</h3>
               </div>
               <p className="text-gray-400">
-              Etiam ac ante nulla. nunc tempor.
+              Basedpay introduces Web3 projects to a whole new audience outside of traditional platforms like Twitter and Telegram. Our platform expands user acquisition, making it easier for projects to find and engage new users who may not be familiar with blockchain technology.
               </p>
             </div>
   
@@ -46,10 +46,10 @@ export default function Benefits() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500 rounded-full filter blur-3xl opacity-20 -mr-16 -mt-16"></div>
               <div className="flex items-center mb-4">
                 <div className="w-4 h-4 bg-blue-500 rounded-full mr-3"></div>
-                <h3 className="text-xl font-semibold">BasedPay</h3>
+                <h3 className="text-xl font-semibold">High-Value User Identification</h3>
               </div>
               <p className="text-gray-400">
-              Etiam ac ante nulla. nunc tempor.
+              Users who return to Web3 projects beyond their initial engagement are identified as high-interest users, allowing projects to target them with further promotions such as airdrops and NFTs, boosting long-term engagement.
               </p>
             </div>
           </div>

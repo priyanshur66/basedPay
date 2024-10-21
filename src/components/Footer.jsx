@@ -5,9 +5,9 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Logo and Description */}
             <div className="col-span-1 md:col-span-2">
-              <h2 className="text-2xl font-bold mb-4">IND-BasedPay</h2>
+              <h2 className="text-2xl font-bold mb-4">BasedPay</h2>
               <p className="text-gray-400 mb-4">
-              Etiam ac ante nulla. nunc tempor.Etiam ac ante nulla. nunc tempor.Etiam ac ante nulla. nunc tempor.Etiam ac ante nulla. nunc tempor.Etiam ac ante nulla. nunc tempor.
+              Save money while shopping by participating in quick and easy promotional campaigns. Choose your campaign, watch a short ad or complete simple tasks, and enjoy instant discounts on your purchases.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-blue-500 hover:text-blue-400">
@@ -51,7 +51,7 @@ export default function Footer() {
   
           {/* Copyright and Legal */}
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">Etiam ac ante nulla. nunc tempor.</p>
+            <p className="text-gray-400 text-sm">BasedPay powered by BASE 💙</p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
               <a href="#" className="text-gray-400 hover:text-white text-sm">Terms of Service</a>

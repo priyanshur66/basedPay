@@ -68,7 +68,7 @@ export default function Navbar() {
 
       <div className="flex items-center">
         <Wallet>
-          <ConnectWallet>
+          <ConnectWallet text="Connect with Basedpay">
             <Avatar className="h-6 w-6" />
             <Name address={address} chain={base} /> 
           </ConnectWallet>

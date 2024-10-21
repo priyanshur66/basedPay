@@ -42,7 +42,7 @@ export default function Component() {
   const [formData, setFormData] = useState({
     serviceProviderName: "",
     serviceType: "",
-    providerWalletAddress: address,
+    providerWalletAddress: address,//address ,
     locationOfService: "",
     providerCode: "",
   });
@@ -105,9 +105,9 @@ export default function Component() {
   };
 
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 min-h-screen">
       <Navbar />
-      <div className="bg-gray-900 min-h-screen mt-16 ml-20 p-4">
+      <div className="bg-gray-900 flex flex-row mt-16 ml-20 p-4">
         <form
           onSubmit={handleSubmit}
           className="w-full -mt-10 max-w-lg bg-gray-800 p-8 rounded-lg shadow-lg"
@@ -177,7 +177,7 @@ export default function Component() {
                 Code
               </label>
               <input
-                type="number"
+                type="text"
                 id="code"
                 name="providerCode"
                 value={formData.providerCode}
@@ -188,21 +188,7 @@ export default function Component() {
             </div>
 
             <div className="mb-4">
-              <label
-                htmlFor="commission"
-                className="block text-sm font-medium text-gray-300 mb-2"
-              >
-                Your Commission
-              </label>
-              <input
-                type="text"
-                id="commission"
-                name="providerWalletAddress"
-                value={formData.providerWalletAddress}
-                onChange={handleChange}
-                className="w-full px-3 py-2 text-gray-300 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="Enter your commission"
-              />
+              
             </div>
           </div>
 
@@ -221,7 +207,9 @@ export default function Component() {
           </TransactionStatus>
         </Transaction>
         </form>
-        
+        <div className="text-white ml-72 text-6xl font-bold ">
+          Extend your services with <span className="animate-pulse">Basedpay.</span>
+        </div>
       </div>
     </div>
   );

@@ -176,7 +176,7 @@ export default function UserForm() {
               onError={handleError}
               onSuccess={handleSuccess}
             >
-              <TransactionButton className="mt-0 mr-auto ml-auto w-[450px] max-w-full text-[white]" />
+              <TransactionButton text="Register your name" className="mt-0 mr-auto ml-auto w-[450px] max-w-full text-[white]" />
               <TransactionStatus>
                 <TransactionStatusLabel />
                 <TransactionStatusAction />

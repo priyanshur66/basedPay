@@ -36,9 +36,9 @@ export default function Advertisement() {
     projectWalletAddress: address,
     video: "",
     link: "",
-    totalBudget: 1000,
-    rewardPerUser: 2,
-    duration: 12,
+    totalBudget: "",
+    rewardPerUser: "",
+    duration: "",
     eligibleForAirdrops: false,
     promotionType: "video",
   });
