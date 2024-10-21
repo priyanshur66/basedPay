@@ -684,7 +684,7 @@ export const BasedPayAbi = [
     type: "function",
   },
 ];
-export const BasedPayAddress = "0x43C9E3bF8aB6d49eDb49d545fDDf12d7b53dE5aF";
+export const BasedPayAddress = "0x2e913a3D7AA550037616e51b2fb569cf886f5Db5";
 export const SampleUsdtAbi = [
   {
     inputs: [],
@@ -1013,4 +1013,4 @@ export const SampleUsdtAbi = [
     type: "function",
   },
 ];
-export const SampleUsdtAddress = "0xcf43112364e9bEdCa088c8cF58bF210D7684493F";
+export const SampleUsdtAddress = "0xCcEf8040076C71CBAd927A0D714808e9CBaF4cA6";

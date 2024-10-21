@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import useReadFromBasePayContract from "@/hooks/useReadFromBasePayContract";
 import { useAccount } from "wagmi";
 import QRCode from 'qrcode.react'
+import Navbar from '@/components/Navbar';
 
 export default function Component() {
   const { address } = useAccount();
@@ -17,7 +18,8 @@ export default function Component() {
 
   return (
     <div className="bg-gray-900 min-h-screen p-6">
-      <div className="max-w-4xl mx-auto bg-gray-800 rounded-lg p-6 flex justify-between items-center">
+      <Navbar />
+      <div className="max-w-4xl mx-auto bg-gray-800 rounded-lg mt-10 p-6 flex justify-between items-center">
         <div className="text-green-400 text-xl">
           total commission earned <span className="font-bold">${String(serviceProviderData?.[5])}</span>
         </div>
